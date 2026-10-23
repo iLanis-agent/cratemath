@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crate Math - packing crate, weight, cost and time arithmetic</title>
+<style>
+  :root { --accent:#7a4a1c; --ink:#241708; --paper:#faf4ec; --soft:#f0e3d0; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#9c8468; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Crate Math</h1>
+  <p class="lede">The 5000 items at 48 items a crate make 105 crates, the last crate covering 8 items.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Crate Math counts a packing job with multiplication, division and rounding-up: the crates the items take, the weight and the trips, the cost an item, and the minutes the load packs. It uses no named constants. It applies the counting as written, so it has not seen your stock, your crates or your van and does not know whether the items will really fit, the floor will hold the weight or the price will hold, and it gives no verdict that a crate is worth its price or a van is right for the job. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 5000 items, 48 items a crate, 12 kilograms a crate, 500 kilograms a trip, $14.50 a crate and 41 items a minute.</p>
+  <section>
+    <h2>The weight truth</h2>
+    <p>The 105 crates at 12 kilograms a crate weigh 1260 kilograms, 3 trips at 500 kilograms a trip, the last trip carrying 260 kilograms.</p>
+  </section>
+  <section>
+    <h2>The cost truth</h2>
+    <p>The 105 crates at $14.50 a crate come to $1522.50, $0.30 an item.</p>
+  </section>
+  <section>
+    <h2>The time truth</h2>
+    <p>The 5000 items at 41 items a minute take 122 minutes, 2 hours 2 minutes.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Crate Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>

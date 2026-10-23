@@ -1,0 +1,1001 @@
+{
+ "cases": [
+  {
+   "fn": "crates",
+   "args": [
+    "5000",
+    "48"
+   ],
+   "expect": "The 5000 items at 48 items a crate make 105 crates, the last crate covering 8 items."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "105",
+    "12",
+    "500"
+   ],
+   "expect": "The 105 crates at 12 kilograms a crate weigh 1260 kilograms, 3 trips at 500 kilograms a trip, the last trip carrying 260 kilograms."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "105",
+    "14.50",
+    "5000"
+   ],
+   "expect": "The 105 crates at $14.50 a crate come to $1522.50, $0.30 an item."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "5000",
+    "41"
+   ],
+   "expect": "The 5000 items at 41 items a minute take 122 minutes, 2 hours 2 minutes."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 item at 1 item a crate makes 1 crate, the last crate covering 1 item."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "4800",
+    "48"
+   ],
+   "expect": "The 4800 items at 48 items a crate make 100 crates, the last crate covering 48 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "1000000",
+    "10000"
+   ],
+   "expect": "The 1000000 items at 10000 items a crate make 100 crates, the last crate covering 10000 items."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "1",
+    "1",
+    "1"
+   ],
+   "expect": "The 1 crate at 1 kilogram a crate weighs 1 kilogram, 1 trip at 1 kilogram a trip, the last trip carrying 1 kilogram."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "10",
+    "10",
+    "500"
+   ],
+   "expect": "The 10 crates at 10 kilograms a crate weigh 100 kilograms, 1 trip at 500 kilograms a trip, the last trip carrying 100 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "100000",
+    "1000",
+    "100000"
+   ],
+   "expect": "The 100000 crates at 1000 kilograms a crate weigh 100000000 kilograms, 1000 trips at 100000 kilograms a trip, the last trip carrying 100000 kilograms."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 crate at $0.01 a crate comes to $0.01, $0.01 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 crates at $999.99 a crate come to $99999000.00, $100.00 an item."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 item at 1 item a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 items at 1 item a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 items at 1000 items a minute take 1000 minutes, 16 hours 40 minutes."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "472378",
+    "9897"
+   ],
+   "expect": "The 472378 items at 9897 items a crate make 48 crates, the last crate covering 7219 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "762803",
+    "7168"
+   ],
+   "expect": "The 762803 items at 7168 items a crate make 107 crates, the last crate covering 2995 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "118891",
+    "7753"
+   ],
+   "expect": "The 118891 items at 7753 items a crate make 16 crates, the last crate covering 2596 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "267",
+    "9250"
+   ],
+   "expect": "The 267 items at 9250 items a crate make 1 crate, the last crate covering 267 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "647415",
+    "7652"
+   ],
+   "expect": "The 647415 items at 7652 items a crate make 85 crates, the last crate covering 4647 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "785575",
+    "6966"
+   ],
+   "expect": "The 785575 items at 6966 items a crate make 113 crates, the last crate covering 5383 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "718908",
+    "9160"
+   ],
+   "expect": "The 718908 items at 9160 items a crate make 79 crates, the last crate covering 4428 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "620320",
+    "8462"
+   ],
+   "expect": "The 620320 items at 8462 items a crate make 74 crates, the last crate covering 2594 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "16723",
+    "9668"
+   ],
+   "expect": "The 16723 items at 9668 items a crate make 2 crates, the last crate covering 7055 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "245035",
+    "670"
+   ],
+   "expect": "The 245035 items at 670 items a crate make 366 crates, the last crate covering 485 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "37404",
+    "6447"
+   ],
+   "expect": "The 37404 items at 6447 items a crate make 6 crates, the last crate covering 5169 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "178910",
+    "1474"
+   ],
+   "expect": "The 178910 items at 1474 items a crate make 122 crates, the last crate covering 556 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "168003",
+    "4531"
+   ],
+   "expect": "The 168003 items at 4531 items a crate make 38 crates, the last crate covering 356 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "815079",
+    "2497"
+   ],
+   "expect": "The 815079 items at 2497 items a crate make 327 crates, the last crate covering 1057 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "51523",
+    "8002"
+   ],
+   "expect": "The 51523 items at 8002 items a crate make 7 crates, the last crate covering 3511 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "786037",
+    "1211"
+   ],
+   "expect": "The 786037 items at 1211 items a crate make 650 crates, the last crate covering 98 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "378162",
+    "2775"
+   ],
+   "expect": "The 378162 items at 2775 items a crate make 137 crates, the last crate covering 762 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "549208",
+    "6687"
+   ],
+   "expect": "The 549208 items at 6687 items a crate make 83 crates, the last crate covering 874 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "841477",
+    "3016"
+   ],
+   "expect": "The 841477 items at 3016 items a crate make 280 crates, the last crate covering 13 items."
+  },
+  {
+   "fn": "crates",
+   "args": [
+    "112117",
+    "2595"
+   ],
+   "expect": "The 112117 items at 2595 items a crate make 44 crates, the last crate covering 532 items."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "24592",
+    "94",
+    "56674"
+   ],
+   "expect": "The 24592 crates at 94 kilograms a crate weigh 2311648 kilograms, 41 trips at 56674 kilograms a trip, the last trip carrying 44688 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "16357",
+    "453",
+    "94946"
+   ],
+   "expect": "The 16357 crates at 453 kilograms a crate weigh 7409721 kilograms, 79 trips at 94946 kilograms a trip, the last trip carrying 3933 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "4447",
+    "584",
+    "90209"
+   ],
+   "expect": "The 4447 crates at 584 kilograms a crate weigh 2597048 kilograms, 29 trips at 90209 kilograms a trip, the last trip carrying 71196 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "21995",
+    "739",
+    "56252"
+   ],
+   "expect": "The 21995 crates at 739 kilograms a crate weigh 16254305 kilograms, 289 trips at 56252 kilograms a trip, the last trip carrying 53729 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "20384",
+    "972",
+    "20966"
+   ],
+   "expect": "The 20384 crates at 972 kilograms a crate weigh 19813248 kilograms, 946 trips at 20966 kilograms a trip, the last trip carrying 378 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "62754",
+    "251",
+    "50283"
+   ],
+   "expect": "The 62754 crates at 251 kilograms a crate weigh 15751254 kilograms, 314 trips at 50283 kilograms a trip, the last trip carrying 12675 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "19142",
+    "389",
+    "78765"
+   ],
+   "expect": "The 19142 crates at 389 kilograms a crate weigh 7446238 kilograms, 95 trips at 78765 kilograms a trip, the last trip carrying 42328 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "48574",
+    "531",
+    "85720"
+   ],
+   "expect": "The 48574 crates at 531 kilograms a crate weigh 25792794 kilograms, 301 trips at 85720 kilograms a trip, the last trip carrying 76794 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "98244",
+    "219",
+    "40430"
+   ],
+   "expect": "The 98244 crates at 219 kilograms a crate weigh 21515436 kilograms, 533 trips at 40430 kilograms a trip, the last trip carrying 6676 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "71155",
+    "302",
+    "89673"
+   ],
+   "expect": "The 71155 crates at 302 kilograms a crate weigh 21488810 kilograms, 240 trips at 89673 kilograms a trip, the last trip carrying 56963 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "66689",
+    "657",
+    "45861"
+   ],
+   "expect": "The 66689 crates at 657 kilograms a crate weigh 43814673 kilograms, 956 trips at 45861 kilograms a trip, the last trip carrying 17418 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "64588",
+    "758",
+    "20216"
+   ],
+   "expect": "The 64588 crates at 758 kilograms a crate weigh 48957704 kilograms, 2422 trips at 20216 kilograms a trip, the last trip carrying 14768 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "21906",
+    "210",
+    "63211"
+   ],
+   "expect": "The 21906 crates at 210 kilograms a crate weigh 4600260 kilograms, 73 trips at 63211 kilograms a trip, the last trip carrying 49068 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "21177",
+    "274",
+    "40098"
+   ],
+   "expect": "The 21177 crates at 274 kilograms a crate weigh 5802498 kilograms, 145 trips at 40098 kilograms a trip, the last trip carrying 28386 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "8133",
+    "834",
+    "51192"
+   ],
+   "expect": "The 8133 crates at 834 kilograms a crate weigh 6782922 kilograms, 133 trips at 51192 kilograms a trip, the last trip carrying 25578 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "27764",
+    "845",
+    "41188"
+   ],
+   "expect": "The 27764 crates at 845 kilograms a crate weigh 23460580 kilograms, 570 trips at 41188 kilograms a trip, the last trip carrying 24608 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "44151",
+    "26",
+    "62437"
+   ],
+   "expect": "The 44151 crates at 26 kilograms a crate weigh 1147926 kilograms, 19 trips at 62437 kilograms a trip, the last trip carrying 24060 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "90159",
+    "566",
+    "19209"
+   ],
+   "expect": "The 90159 crates at 566 kilograms a crate weigh 51029994 kilograms, 2657 trips at 19209 kilograms a trip, the last trip carrying 10890 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "49871",
+    "144",
+    "82718"
+   ],
+   "expect": "The 49871 crates at 144 kilograms a crate weigh 7181424 kilograms, 87 trips at 82718 kilograms a trip, the last trip carrying 67676 kilograms."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "56623",
+    "454",
+    "70572"
+   ],
+   "expect": "The 56623 crates at 454 kilograms a crate weigh 25706842 kilograms, 365 trips at 70572 kilograms a trip, the last trip carrying 18634 kilograms."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "84518",
+    "546.87",
+    "412005"
+   ],
+   "expect": "The 84518 crates at $546.87 a crate come to $46220358.66, $112.18 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "5751",
+    "769.85",
+    "823208"
+   ],
+   "expect": "The 5751 crates at $769.85 a crate come to $4427407.35, $5.38 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "71885",
+    "603.72",
+    "755091"
+   ],
+   "expect": "The 71885 crates at $603.72 a crate come to $43398412.20, $57.47 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "25944",
+    "238.86",
+    "935101"
+   ],
+   "expect": "The 25944 crates at $238.86 a crate come to $6196983.84, $6.63 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "9803",
+    "131.94",
+    "509810"
+   ],
+   "expect": "The 9803 crates at $131.94 a crate come to $1293407.82, $2.54 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "10919",
+    "118.47",
+    "64585"
+   ],
+   "expect": "The 10919 crates at $118.47 a crate come to $1293573.93, $20.03 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "89453",
+    "475.89",
+    "830290"
+   ],
+   "expect": "The 89453 crates at $475.89 a crate come to $42569788.17, $51.27 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "35437",
+    "16.39",
+    "656584"
+   ],
+   "expect": "The 35437 crates at $16.39 a crate come to $580812.43, $0.88 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "91830",
+    "283.57",
+    "346137"
+   ],
+   "expect": "The 91830 crates at $283.57 a crate come to $26040233.10, $75.23 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "38601",
+    "914.75",
+    "819068"
+   ],
+   "expect": "The 38601 crates at $914.75 a crate come to $35310264.75, $43.11 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "33373",
+    "121.68",
+    "110578"
+   ],
+   "expect": "The 33373 crates at $121.68 a crate come to $4060826.64, $36.72 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "28367",
+    "68.8",
+    "976939"
+   ],
+   "expect": "The 28367 crates at $68.80 a crate come to $1951649.60, $2.00 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "55484",
+    "540.26",
+    "782688"
+   ],
+   "expect": "The 55484 crates at $540.26 a crate come to $29975785.84, $38.30 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "31489",
+    "371.04",
+    "292729"
+   ],
+   "expect": "The 31489 crates at $371.04 a crate come to $11683678.56, $39.91 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "53789",
+    "787.66",
+    "29684"
+   ],
+   "expect": "The 53789 crates at $787.66 a crate come to $42367443.74, $1427.28 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "62978",
+    "295.9",
+    "280414"
+   ],
+   "expect": "The 62978 crates at $295.90 a crate come to $18635190.20, $66.46 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "56527",
+    "107.32",
+    "525582"
+   ],
+   "expect": "The 56527 crates at $107.32 a crate come to $6066477.64, $11.54 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "83755",
+    "911.47",
+    "310304"
+   ],
+   "expect": "The 83755 crates at $911.47 a crate come to $76340169.85, $246.02 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98758",
+    "622.49",
+    "608078"
+   ],
+   "expect": "The 98758 crates at $622.49 a crate come to $61475867.42, $101.10 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "694",
+    "698.59",
+    "879386"
+   ],
+   "expect": "The 694 crates at $698.59 a crate come to $484821.46, $0.55 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "13633",
+    "332.39",
+    "682142"
+   ],
+   "expect": "The 13633 crates at $332.39 a crate come to $4531472.87, $6.64 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "89339",
+    "639.89",
+    "792143"
+   ],
+   "expect": "The 89339 crates at $639.89 a crate come to $57167132.71, $72.17 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98419",
+    "715.15",
+    "968293"
+   ],
+   "expect": "The 98419 crates at $715.15 a crate come to $70384347.85, $72.69 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "17715",
+    "57.2",
+    "812485"
+   ],
+   "expect": "The 17715 crates at $57.20 a crate come to $1013298.00, $1.25 an item."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "47929",
+    "562.32",
+    "956760"
+   ],
+   "expect": "The 47929 crates at $562.32 a crate come to $26951435.28, $28.17 an item."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "145829",
+    "423"
+   ],
+   "expect": "The 145829 items at 423 items a minute take 345 minutes, 5 hours 45 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "17379",
+    "983"
+   ],
+   "expect": "The 17379 items at 983 items a minute take 18 minutes, 0 hours 18 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "515682",
+    "91"
+   ],
+   "expect": "The 515682 items at 91 items a minute take 5667 minutes, 94 hours 27 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "946070",
+    "494"
+   ],
+   "expect": "The 946070 items at 494 items a minute take 1916 minutes, 31 hours 56 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "156178",
+    "615"
+   ],
+   "expect": "The 156178 items at 615 items a minute take 254 minutes, 4 hours 14 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "431849",
+    "318"
+   ],
+   "expect": "The 431849 items at 318 items a minute take 1359 minutes, 22 hours 39 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "916655",
+    "899"
+   ],
+   "expect": "The 916655 items at 899 items a minute take 1020 minutes, 17 hours 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "572650",
+    "424"
+   ],
+   "expect": "The 572650 items at 424 items a minute take 1351 minutes, 22 hours 31 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "946362",
+    "141"
+   ],
+   "expect": "The 946362 items at 141 items a minute take 6712 minutes, 111 hours 52 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "267504",
+    "231"
+   ],
+   "expect": "The 267504 items at 231 items a minute take 1159 minutes, 19 hours 19 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "754380",
+    "896"
+   ],
+   "expect": "The 754380 items at 896 items a minute take 842 minutes, 14 hours 2 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "245729",
+    "357"
+   ],
+   "expect": "The 245729 items at 357 items a minute take 689 minutes, 11 hours 29 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "125374",
+    "874"
+   ],
+   "expect": "The 125374 items at 874 items a minute take 144 minutes, 2 hours 24 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "998657",
+    "489"
+   ],
+   "expect": "The 998657 items at 489 items a minute take 2043 minutes, 34 hours 3 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "117226",
+    "658"
+   ],
+   "expect": "The 117226 items at 658 items a minute take 179 minutes, 2 hours 59 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "905080",
+    "196"
+   ],
+   "expect": "The 905080 items at 196 items a minute take 4618 minutes, 76 hours 58 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "81353",
+    "965"
+   ],
+   "expect": "The 81353 items at 965 items a minute take 85 minutes, 1 hour 25 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "240685",
+    "568"
+   ],
+   "expect": "The 240685 items at 568 items a minute take 424 minutes, 7 hours 4 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "71492",
+    "579"
+   ],
+   "expect": "The 71492 items at 579 items a minute take 124 minutes, 2 hours 4 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "crates",
+   [
+    "0",
+    "48"
+   ]
+  ],
+  [
+   "crates",
+   [
+    "1000001",
+    "48"
+   ]
+  ],
+  [
+   "crates",
+   [
+    "2.5",
+    "48"
+   ]
+  ],
+  [
+   "crates",
+   [
+    "5000",
+    "0"
+   ]
+  ],
+  [
+   "crates",
+   [
+    "5000",
+    "10001"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "0",
+    "12",
+    "500"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "100001",
+    "12",
+    "500"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "105",
+    "0",
+    "500"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "105",
+    "1001",
+    "500"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "105",
+    "12",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "14.50",
+    "5000"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "105",
+    "0",
+    "5000"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "105",
+    "1000",
+    "5000"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "105",
+    "14.505",
+    "5000"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "105",
+    "14.50",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "41"
+   ]
+  ],
+  [
+   "time",
+   [
+    "5000",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "5000",
+    "1001"
+   ]
+  ],
+  [
+   "time",
+   [
+    "5000",
+    "41.5"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "105",
+    "1.5",
+    "500"
+   ]
+  ]
+ ]
+   }
